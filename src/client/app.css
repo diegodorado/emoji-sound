@@ -1,0 +1,95 @@
+html,
+body {
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+td.group{
+  width: 20%;
+}
+td.group{
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 18px;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+}
+td.group a{
+  text-align: center;
+  padding: 60px 0px;
+  line-height: 100%;
+  display: block;
+}
+td.emoji{
+  font-size: 42px;
+  word-break: break-all;
+}
+
+td.emoji a{
+  padding: 5px;
+}
+
+td.emoji a:hover{
+  filter: hue-rotate(180deg);
+}
+
+table{
+  table-layout: fixed;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+p{
+  font-size: 24px;
+}
+body{
+  padding-bottom: 300px;
+}
+.container a{
+  color: cyan;
+}
+
+.container a:hover{
+  color: magenta;
+  text-decoration: none;
+}
+.emoji-page{
+  text-align: center;
+}
+.emoji-page .big-emoji{
+  font-size: 180px;
+}
+.emoji-page h3{
+  text-transform: uppercase;
+}
+
+
+.pagination > li > a
+{
+    background-color: transparent;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    border: solid 1px cyan;
+    background-color: #666;
+}
+
+.pagination > .active > a
+{
+    border: solid 1px purple;
+}
+
+.pagination > .active > a:hover
+{
+    border: solid 1px purple;
+    background-color: #333;
+
+}
